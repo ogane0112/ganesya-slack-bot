@@ -26,7 +26,8 @@ app.event("app_mention", async ({ context }) => {
 	  text: `<@${context.userId}> さん、何かご用ですか？`
 	});
   });
-  
+
 return await app.run(request, ctx);
   },
 };
+//slackbotを実装しています
